@@ -1,0 +1,187 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.msgbox {
+  background-color: black;
+  height: 680px;
+  width: 420px;
+  margin-top: 50px;
+  margin-left: 550px;
+  box-shadow: 10px 10px 10px skyblue;
+}
+.head {
+  background-color: black;
+  width: 420px;
+  height: 70px;
+  box-shadow: 1px 1px 15px black;
+}
+.left {
+  display: flex;
+  justify-content: space-evenly;
+}
+.left,
+i,
+p {
+  font-size: 20px;
+  padding-top: 10px;
+}
+.icon {
+  color: blue;
+}
+.left p {
+  color: white;
+}
+.user {
+  border-radius: 50%;
+  border: 3px solid white;
+  padding: 7px;
+}
+.acall {
+  display: flex;
+}
+.acall p {
+  color: white;
+}
+
+.img {
+  padding-top: 30px;
+  padding-left: 5px;
+}
+.calld {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 10px;
+  height: 80px;
+  width: 180px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 20px;
+}
+.call {
+  padding-top: 15px;
+  padding-left: 10px;
+}
+.call i {
+  background-color: white;
+  border-radius: 50%;
+  border: 3px solid blue;
+  padding: 5px;
+}
+.time {
+  text-align: center;
+  padding-top: 10px;
+}
+.time p {
+  color: white;
+}
+.chat1 {
+  display: flex;
+}
+.chat {
+  padding-top: 3px;
+  padding-left: 5px;
+}
+.chat p {
+  color: white;
+}
+.c1 {
+  height: 40px;
+  width: 80px;
+  padding-left: 15px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 20px;
+  margin: 5px;
+}
+.c2 {
+  height: 40px;
+  width: 110px;
+  padding-left: 15px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 20px;
+  margin: 5px;
+}
+.c3 {
+  height: 40px;
+  width: 150px;
+  padding-left: 15px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 20px;
+  margin: 5px;
+}
+.img1 {
+  padding-top: 100px;
+  padding-left: 5px;
+}
+.chatright {
+  display: flex;
+  flex-direction: row-reverse;
+  padding-right: 5px;
+}
+
+.chat2 p {
+  color: white;
+}
+.chat2 {
+  height: 70px;
+  width: 80px;
+  padding-left: 15px;
+  background-color: red;
+  border-radius: 20px;
+  margin: 5px;
+}
+.inbox{
+  box-shadow: 1px 1px 15px black;
+  height: 60px;
+  width: 420px;
+ 
+
+}
+
+.item1 i{
+  padding: 5px;
+  padding-top: 15px;
+  font-size: 25px;
+  color: red;
+
+}
+.item1{
+  display: flex;
+  justify-content: space-evenly;
+}
+.item2{
+ background-color: white;
+ width: 120px;
+ height: 26px;
+ display: flex;
+ align-items: center;
+ justify-content: space-evenly;
+ padding: 5px;
+ margin: 5px;
+ border-radius: 20px;
+}
+input[type=text] {
+  width: 80px;
+  height: 30px;
+  border: none;
+  font-size: 20px;
+  padding-left: 3px;
+
+ 
+
+
+}
+.emoji i{
+  font-size: 20px;
+  padding-bottom: 13px;
+  padding-right: 10px;
+}
+
+.chatfb{
+  
+  height: 550px;
+  overflow-y: scroll;
+  
+}
+.chatfb::-webkit-scrollbar {
+  display: none;
+}
